@@ -1,0 +1,70 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+         xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>net.staniscia.rca</groupId>
+        <artifactId>icaro-rca</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+
+    <artifactId>icaro-rca-swing-examples</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+
+    <name>Icaro RCA :: Swing :: Examples</name>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <!-- OGSi Configuration
+    <osgi.import>
+        net.staniscianiscia.commons.rca,
+        org.osgi.framework
+    </osgi.import>
+
+    <osgi.private>net.staniscianiscia.commons.rca.*</osgi.private>
+
+    <osgi.bundle.activator>
+        net.staniscianiscia.commons.rca.example.OSGIUsageosgi.bundle.activator>
+
+    <osgi.require.bundle>
+        net.staniscianiscia.commons.rca.rca-api
+    </osgi.require.bundle>
+    OGSi Configuration end -->
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>icaro-rca-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>icaro-rca-swing</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <version>4.3.1</version>
+        </dependency>
+    </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>exec-maven-plugin</artifactId>
+                <version>1.2.1</version>
+                <configuration>
+                    <mainClass>net.staniscia.rca.example.SwingUsage</mainClass>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>

@@ -1,0 +1,109 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>net.staniscia.rca</groupId>
+        <artifactId>icaro-rca</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+
+    <artifactId>icaro-rca-swing</artifactId>
+
+    <name>Icaro RCA :: Swing</name>
+    <description>Implementazione Swing di RCA API, leggere RCA Api per le funzionalità</description>
+
+    <properties>
+        <!-- OGSi Configuration
+        <osgi.private>
+            net.staniscianiscia.commons.rca.swing.*
+        </osgi.private> 
+        <osgi.import>
+            org.osgi.framework;version="1.3.0",
+        </osgi.import>
+        <osgi.bundle.activator>
+            net.staniscianiscia.commons.rca.swing.OSGIActivation
+        </osgi.bundle.activator> 
+        
+        <osgi.require.bundle>
+            net.staniscianiscia.commons.rca.rca-api
+        </osgi.require.bundle>
+        OGSi Configuration end -->
+    </properties>
+
+
+
+
+    <dependencies>
+        <dependency>
+            <groupId>net.staniscia.rca</groupId>
+            <artifactId>icaro-rca-api</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+
+        </dependency>
+        <dependency>
+            <groupId>org.osgi</groupId>
+            <artifactId>org.osgi.core</artifactId>
+            <version>4.3.0</version>
+
+        </dependency>
+        <dependency>
+            <groupId>net.sourceforge.mydoggy</groupId>
+            <artifactId>mydoggy-api</artifactId>
+            <version>1.5.0-beta-r1389</version>
+
+        </dependency>
+        <dependency>
+            <groupId>net.sourceforge.mydoggy</groupId>
+            <artifactId>mydoggy-plaf</artifactId>
+            <version>1.5.0-beta-r1389</version>
+
+        </dependency>
+        <dependency>
+            <groupId>net.sourceforge.mydoggy</groupId>
+            <artifactId>mydoggy-examples</artifactId>
+            <version>1.5.0-beta-r1389</version>
+
+        </dependency>
+        <!-- <dependency>
+            <artifactId>TableLayout</artifactId>
+            <groupId>tablelayout</groupId>
+            <version>20050920</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <artifactId>filters</artifactId>
+            <groupId>com.jhlabs</groupId>
+            <version>2.0.235</version>
+            <scope>provided</scope>
+        </dependency>
+                <dependency>
+            <artifactId>swingx</artifactId>
+            <groupId>org.swinglabs</groupId>
+            <version>0.9.1</version>
+            <scope>provided</scope>
+        </dependency>
+
+
+        -->
+        <dependency>
+            <groupId>net.sourceforge.mydoggy</groupId>
+            <artifactId>mydoggy-res</artifactId>
+            <version>1.5.0-beta-r1389</version>
+
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.mockito</groupId>
+            <artifactId>mockito-all</artifactId>
+            <version>1.9.5</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+</project>

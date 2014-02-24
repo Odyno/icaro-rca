@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features>
+    <feature name="rca-swing" version="${rca.swing.version}">
+        <bundle>mvn:net.staniscia.rca/rca-swing/${rca.swing.version}</bundle>
+        <bundle>mvn:net.staniscia.rca/rca-api/${rca.api.version}</bundle>
+        <bundle>wrap:mvn:org.noos.xing/mydoggy-api/1.5.0</bundle>
+        <bundle>wrap:mvn:org.noos.xing/mydoggy-plaf/1.5.0</bundle>
+        <bundle>wrap:mvn:org.noos.xing/mydoggy-examples/1.5.0</bundle>
+        <bundle>wrap:mvn:tablelayout/TableLayout/20050920</bundle>
+        <bundle>wrap:mvn:com.jhlabs/filters/2.0.235</bundle>
+        <bundle>wrap:mvn:org.noos.xing/mydoggy-res/1.5.0</bundle>
+        <bundle>wrap:mvn:org.swinglabs/swingx/0.9.1</bundle>
+    </feature>
+    <feature name="rca-swing-example">
+        <feature version="${rca.swing.version}">rca-swing</feature>
+        <bundle>mvn:net.staniscia.rca/rca-swing-examples/${rca.test.version}</bundle>
+    </feature>
+</features>
