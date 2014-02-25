@@ -12,7 +12,7 @@
     <parent>
         <groupId>net.staniscia</groupId>
         <artifactId>ast-parent-pom</artifactId>
-        <version>0.1.2-SNAPSHOT</version>
+        <version>0.1.3</version>
     </parent>
 
     <groupId>net.staniscia.rca</groupId>
