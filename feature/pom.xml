@@ -10,7 +10,7 @@
     </parent>
 
     <artifactId>icaro-rca-swing-features</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <name>Itaca RCA :: Swing :: Feature</name>
     <description>Create a feature with the defined dependencies set.</description>
