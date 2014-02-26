@@ -90,7 +90,6 @@
             <groupId>net.sourceforge.mydoggy</groupId>
             <artifactId>mydoggy-res</artifactId>
             <version>1.5.0-beta-r1389</version>
-
         </dependency>
         <dependency>
             <groupId>junit</groupId>
