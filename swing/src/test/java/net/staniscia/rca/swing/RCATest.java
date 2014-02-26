@@ -15,10 +15,14 @@ public class RCATest {
 
     @Test
     public void testShow() {
-        RCA rca = new RCA();
-        rca.show("Test");
-        rca.getViewService().add(new MemoryView());
-        rca.shutdownComponents();
+        try {
+            RCA rca = new RCA();
+            rca.show("Test");
+            rca.getViewService().add(new MemoryView());
+            rca.shutdownComponents();
+        } catch (HeadlessException e) {
+            assertTrue("No GUI AVAILABLE", true);
+        }
     }
 
 
