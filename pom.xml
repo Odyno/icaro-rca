@@ -16,7 +16,7 @@
 
     <groupId>net.staniscia.rca</groupId>
     <artifactId>icaro-rca</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
 
     <name>Icaro RCA</name>
@@ -65,7 +65,7 @@
         <developerConnection>
 		     scm:git:ssh://git@github.com/${github.prj.url}.git
 	    </developerConnection>
-      <tag>icaro-rca-0.0.1</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <repositories>

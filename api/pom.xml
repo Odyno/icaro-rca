@@ -4,11 +4,11 @@
     <parent>
         <groupId>net.staniscia.rca</groupId>
         <artifactId>icaro-rca</artifactId>
-        <version>0.0.1</version>
+        <version>0.0.2-SNAPSHOT</version>
     </parent>
 
     <artifactId>icaro-rca-api</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2-SNAPSHOT</version>
 
     <name>Icaro RCA :: Api</name>
     <description>Rich client application permette di avere una interfaccia applicativa pronta per essere utilizzata nei singoli progetti. E' possibile creare finestre chield di un frame (content), finestre a  scorrevoli/scomparsa laterali (view) e fornire immediatamente menu + action bar integrate nel frame per tutte le attività definiete (Actions)</description>
