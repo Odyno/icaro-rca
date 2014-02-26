@@ -9,9 +9,7 @@ The project is composed in 4 modules:
    * The apache karaf feature of project used to deploy the Icaro RCA on  OSGI container.
 
 
+|Line    |Version|Site|Build Status|
+|--------|-------|----|--------|
+|master  |0.0.1  |[http://odyno.github.io/icaro-rca/0.0.1](http://odyno.github.io/icaro-rca/0.0.1)|[https://travis-ci.org/Odyno/icaro-rca](https://travis-ci.org/Odyno/icaro-rca). [![Build Status](https://travis-ci.org/Odyno/icaro-rca.png?branch=master)](https://travis-ci.org/Odyno/icaro-rca)|
 
-Other:
------
-
-* Continuous Integration: [https://travis-ci.org/Odyno/icaro-rca](https://travis-ci.org/Odyno/icaro-rca). [![Build Status](https://travis-ci.org/Odyno/icaro-rca.png?branch=master)](https://travis-ci.org/Odyno/icaro-rca)
-* Maven Develop Site: [http://odyno.github.io/icaro-rca/0.0.1-SNAPSHOT](http://odyno.github.io/icaro-rca/0.0.1-SNAPSHOT)

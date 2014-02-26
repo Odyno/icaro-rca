@@ -5,12 +5,12 @@
     <parent>
         <groupId>net.staniscia.rca</groupId>
         <artifactId>icaro-rca</artifactId>
-        <version>0.0.1-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
 
     <artifactId>icaro-rca-swing-examples</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.1</version>
 
     <name>Icaro RCA :: Swing :: Examples</name>
 
