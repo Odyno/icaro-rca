@@ -21,10 +21,11 @@
     <packaging>pom</packaging>
 
     <name>Icaro RCA</name>
-    <description>Rich client application permette di avere una interfaccia applicativa pronta per essere utilizzata nei singoli progetti. E' possibile creare finestre chield di un frame (content), finestre a  scorrevoli/scomparsa laterali (view) e fornire immediatamente menu + action bar integrate nel frame per tutte le attività definiete (Actions)</description>
-
-
-
+    <description>Rich client application permette di avere una interfaccia applicativa pronta per essere utilizzata nei
+        singoli progetti. E' possibile creare finestre chield di un frame (content), finestre a scorrevoli/scomparsa
+        laterali (view) e fornire immediatamente menu + action bar integrate nel frame per tutte le attività definiete
+        (Actions)
+    </description>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -58,14 +59,14 @@
 
     <scm>
         <url>
-		     https://github.com/${github.prj.url}
-		</url>
+            https://github.com/${github.prj.url}
+        </url>
         <connection>
-		     scm:git:ssh://github.com/${github.prj.url}.git
-		</connection>
+            scm:git:ssh://github.com/${github.prj.url}.git
+        </connection>
         <developerConnection>
-		     scm:git:ssh://git@github.com/${github.prj.url}.git
-	    </developerConnection>
+            scm:git:ssh://git@github.com/${github.prj.url}.git
+        </developerConnection>
     </scm>
 
     <repositories>
@@ -77,15 +78,6 @@
 
     <build>
         <plugins>
-                <plugin>
-                    <groupId>org.apache.maven.plugins</groupId>
-                    <artifactId>maven-compiler-plugin</artifactId>
-                    <version>3.1</version>
-                    <configuration>
-                        <source>1.7</source>
-                        <target>1.7</target>
-                    </configuration>
-                </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-site-plugin</artifactId>
@@ -132,7 +124,9 @@
                 <configuration>
                     <!-- Doclet -->
                     <doclet>ydoc.doclets.YStandard</doclet>
-                    <docletPath>${web.yworks.uml.path}/lib/ydoc.jar:${web.yworks.uml.path}/lib/class2svg.jar:${web.yworks.uml.path}/resources</docletPath>
+                    <docletPath>
+                        ${web.yworks.uml.path}/lib/ydoc.jar:${web.yworks.uml.path}/lib/class2svg.jar:${web.yworks.uml.path}/resources
+                    </docletPath>
                     <additionalparam>-link http://java.sun.com/j2se/1.5.0/docs/api/ -umlautogen</additionalparam>
                     <!-- bootclasspath required by Sun's JVM -->
                     <bootclasspath>${sun.boot.class.path}</bootclasspath>
