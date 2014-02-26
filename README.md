@@ -12,9 +12,6 @@ The project is composed in 4 modules:
 |Line    |Version|Site|Build Status|
 |--------|-------|----|--------|
 |Develoment  |0.0.2-SNAPSHOT  |[Maven Site](http://odyno.github.io/icaro-rca/0.0.2-SNAPSHOT)|[![Build Status](https://travis-ci.org/Odyno/icaro-rca.png?branch=Development)](https://travis-ci.org/Odyno/icaro-rca)|
-
 |master  |0.0.1  |[Maven Site](http://odyno.github.io/icaro-rca/0.0.1)|[![Build Status](https://travis-ci.org/Odyno/icaro-rca.png?branch=master)](https://travis-ci.org/Odyno/icaro-rca)|
-
-
 |Icaro-rca-0.0.1  |0.0.1  |[Maven Site](http://odyno.github.io/icaro-rca/0.0.1)|[![Build Status](https://travis-ci.org/Odyno/icaro-rca.png?branch=Icaro-rca-0.0.1)](https://travis-ci.org/Odyno/icaro-rca)|
 
