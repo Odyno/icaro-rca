@@ -57,9 +57,15 @@
     </distributionManagement>
 
     <scm>
-        <url>https://github.com/${github.prj.url}</url>
-        <connection>scm:git:git://github.com/${github.prj.url}.git</connection>
-        <developerConnection>scm:git:git@github.com:${github.prj.url}.git</developerConnection>
+        <url>
+		     https://github.com/${github.prj.url}
+		</url>
+        <connection>
+		     scm:git:ssh://github.com/${github.prj.url}.git
+		</connection>
+        <developerConnection>
+		     scm:git:ssh://git@github.com/${github.prj.url}.git
+	    </developerConnection>
     </scm>
 
     <repositories>
