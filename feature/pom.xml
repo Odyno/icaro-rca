@@ -6,11 +6,11 @@
     <parent>
         <groupId>net.staniscia.rca</groupId>
         <artifactId>icaro-rca</artifactId>
-        <version>0.0.2-SNAPSHOT</version>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
 
     <artifactId>icaro-rca-swing-features</artifactId>
-    <version>0.0.2-SNAPSHOT</version>
+    <version>0.0.1-SNAPSHOT</version>
 
     <name>Itaca RCA :: Swing :: Feature</name>
     <description>Create a feature with the defined dependencies set.</description>
