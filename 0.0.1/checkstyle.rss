@@ -1,0 +1,838 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+Licensed to the Apache Software Foundation (ASF) under one
+or more contributor license agreements.  See the NOTICE file
+distributed with this work for additional information
+regarding copyright ownership.  The ASF licenses this file
+to you under the Apache License, Version 2.0 (the
+"License"); you may not use this file except in compliance
+with the License.  You may obtain a copy of the License at
+
+  http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing,
+software distributed under the License is distributed on an
+"AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations
+under the License.
+-->
+<rss version="0.91">
+  <channel>
+    <title>Icaro RCA - Checkstyle report</title>
+    <link>http://www.staniscia.net/projects/icaro-rca/</link>
+    <description>Icaro RCA - Checkstyle report</description>
+    <language>en-us</language>
+    <copyright>&#169;2014 www.staniscia.net</copyright>
+    <item>
+      <title>File: 56,
+             Errors: 7177,
+             Warnings: 203,
+             Infos: 8
+      </title>
+            <link>http://www.staniscia.net/projects/icaro-rca//checkstyle.html</link>
+      <description>
+        <p>Click <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html">here</a> for the full Checkstyle report.</p>
+
+        <table summary="Files" boder="1">
+          <thead>
+            <tr>
+              <th>Files</th>
+              <th style="width:30px;"><abbr title="Info">I</abbr></th>
+              <th style="width:30px;"><abbr title="Warning">W</abbr></th>
+              <th style="width:30px;"><abbr title="Error">E</abbr></th>
+            </tr>
+          </thead>
+          <tbody>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.common.StatusIconsNaming.java">net/staniscia/rca/swing/common/StatusIconsNaming.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  295
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.view.DockableContent.java">net/staniscia/rca/swing/view/DockableContent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.AbstractAction.java">net/staniscia/rca/AbstractAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  277
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.action.basic.ShowViewAction.java">net/staniscia/rca/swing/action/basic/ShowViewAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  85
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.icons.IconFactory.java">net/staniscia/rca/icons/IconFactory.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  11
+                </td>
+                <td>
+                  456
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.services.ActionServices.java">net/staniscia/rca/services/ActionServices.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  29
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.view.widget.StatusBarPanel.java">net/staniscia/rca/swing/view/widget/StatusBarPanel.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  930
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.action.basic.CloseSystem.java">net/staniscia/rca/swing/action/basic/CloseSystem.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  64
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.icons.ApplicationIconsNaming.java">net/staniscia/rca/icons/ApplicationIconsNaming.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  394
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.common.windows.DummyContent.java">net/staniscia/rca/swing/common/windows/DummyContent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+                <td>
+                  43
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.View.java">net/staniscia/rca/View.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  46
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.example.component.dummy.JChat.java">net/staniscia/rca/example/component/dummy/JChat.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  60
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.status.CommonStatusBarContent.java">net/staniscia/rca/status/CommonStatusBarContent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  121
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.view.widget.StatusBarBundleListner.java">net/staniscia/rca/swing/view/widget/StatusBarBundleListner.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  36
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.services.StatusBarService.java">net/staniscia/rca/services/StatusBarService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  27
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.view.DockableView.java">net/staniscia/rca/swing/view/DockableView.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  60
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.view.widget.InfoStatusBarZone.java">net/staniscia/rca/swing/view/widget/InfoStatusBarZone.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  6
+                </td>
+                <td>
+                  79
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.services.ViewServiceImp.java">net/staniscia/rca/swing/services/ViewServiceImp.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  64
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.icons.MissingIcon.java">net/staniscia/rca/icons/MissingIcon.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  191
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.view.WindowUI.java">net/staniscia/rca/swing/view/WindowUI.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  105
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#META-INF.mydoggyplaf.properties">META-INF/mydoggyplaf.properties</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.services.ActionServiceImp.java">net/staniscia/rca/swing/services/ActionServiceImp.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+                <td>
+                  376
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.services.ContentServices.java">net/staniscia/rca/services/ContentServices.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  37
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.common.PlacesIconsNaming.java">net/staniscia/rca/swing/common/PlacesIconsNaming.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  45
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.common.ActionIconsNaming.java">net/staniscia/rca/swing/common/ActionIconsNaming.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  64
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.view.widget.JC2tStatusBarZone.java">net/staniscia/rca/swing/view/widget/JC2tStatusBarZone.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+                <td>
+                  121
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.common.SomeIOUtils.java">net/staniscia/rca/swing/common/SomeIOUtils.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  40
+                </td>
+                <td>
+                  499
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.Extension.java">net/staniscia/rca/Extension.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.AbstractView.java">net/staniscia/rca/AbstractView.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  32
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.services.ContentServiceImp.java">net/staniscia/rca/swing/services/ContentServiceImp.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  36
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.example.OSGIUsage.java">net/staniscia/rca/example/OSGIUsage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  31
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.services.IStatusBarService.java">net/staniscia/rca/services/IStatusBarService.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  27
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.example.component.dummy.JCalcolatrice.java">net/staniscia/rca/example/component/dummy/JCalcolatrice.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  513
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#META-INF.resources.properties">META-INF/resources.properties</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.action.basic.ShowContentAction.java">net/staniscia/rca/swing/action/basic/ShowContentAction.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  33
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.OSGIActivation.java">net/staniscia/rca/swing/OSGIActivation.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  25
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.view.widget.LogoStatusBarZone.java">net/staniscia/rca/swing/view/widget/LogoStatusBarZone.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  50
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.IStatusBarZone.java">net/staniscia/rca/IStatusBarZone.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  40
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.AbstractExtension.java">net/staniscia/rca/AbstractExtension.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  7
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.services.WindowCtrl.java">net/staniscia/rca/swing/services/WindowCtrl.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  70
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.common.windows.MemoryView.java">net/staniscia/rca/swing/common/windows/MemoryView.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  8
+                </td>
+                <td>
+                  35
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.services.StatusBarServiceImp.java">net/staniscia/rca/swing/services/StatusBarServiceImp.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  29
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.RCA.java">net/staniscia/rca/swing/RCA.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  37
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.Content.java">net/staniscia/rca/Content.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  35
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.common.SomeFileUtils.java">net/staniscia/rca/swing/common/SomeFileUtils.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  39
+                </td>
+                <td>
+                  1143
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.services.DockingContentCtrl.java">net/staniscia/rca/swing/services/DockingContentCtrl.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  122
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.AbstractContent.java">net/staniscia/rca/AbstractContent.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  26
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.services.DockableService.java">net/staniscia/rca/swing/services/DockableService.java</a>
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  47
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.example.SwingUsage.java">net/staniscia/rca/example/SwingUsage.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  3
+                </td>
+                <td>
+                  20
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.services.ViewServices.java">net/staniscia/rca/services/ViewServices.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  4
+                </td>
+                <td>
+                  34
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.view.widget.StatusBarController.java">net/staniscia/rca/swing/view/widget/StatusBarController.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  5
+                </td>
+                <td>
+                  67
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.example.component.CalcContent.java">net/staniscia/rca/example/component/CalcContent.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  17
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.swing.common.DeviceIconsNaming.java">net/staniscia/rca/swing/common/DeviceIconsNaming.java</a>
+                </td>
+                <td>
+                  1
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  97
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.StatusBar.java">net/staniscia/rca/StatusBar.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  19
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.example.component.AboutActions.java">net/staniscia/rca/example/component/AboutActions.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  31
+                </td>
+              </tr>
+                          <tr>
+                <td>
+                  <a href="http://www.staniscia.net/projects/icaro-rca//checkstyle.html#net.staniscia.rca.example.component.ChatView.java">net/staniscia/rca/example/component/ChatView.java</a>
+                </td>
+                <td>
+                  0
+                </td>
+                <td>
+                  2
+                </td>
+                <td>
+                  16
+                </td>
+              </tr>
+                      </tbody>
+        </table>
+        
+      </description>
+    </item>
+  </channel>
+</rss>
+

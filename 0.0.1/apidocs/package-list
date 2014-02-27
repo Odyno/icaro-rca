@@ -1,0 +1,14 @@
+net.staniscia.rca
+net.staniscia.rca.example
+net.staniscia.rca.example.component
+net.staniscia.rca.example.component.dummy
+net.staniscia.rca.icons
+net.staniscia.rca.services
+net.staniscia.rca.status
+net.staniscia.rca.swing
+net.staniscia.rca.swing.action.basic
+net.staniscia.rca.swing.common
+net.staniscia.rca.swing.common.windows
+net.staniscia.rca.swing.services
+net.staniscia.rca.swing.view
+net.staniscia.rca.swing.view.widget

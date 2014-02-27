@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>DeviceIconsNaming xref</title>
+<link type="text/css" rel="stylesheet" href="../../../../../stylesheet.css" />
+</head>
+<body>
+<div id="overview"><a href="../../../../../../apidocs/net/staniscia/rca/swing/common/DeviceIconsNaming.html">View Javadoc</a></div><pre>
+
+<a class="jxr_linenumber" name="1" href="#1">1</a>   <strong class="jxr_keyword">package</strong> net.staniscia.rca.swing.common;
+<a class="jxr_linenumber" name="2" href="#2">2</a>   
+<a class="jxr_linenumber" name="3" href="#3">3</a>   <em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="4" href="#4">4</a>   <em class="jxr_javadoccomment"> * This Icon Selector is complian to standards <a href="http://standards.freedesktop.org" target="alexandria_uri">http://standards.freedesktop.org</a></em>
+<a class="jxr_linenumber" name="5" href="#5">5</a>   <em class="jxr_javadoccomment"> * </em>
+<a class="jxr_linenumber" name="6" href="#6">6</a>   <em class="jxr_javadoccomment"> * @see http </em>
+<a class="jxr_linenumber" name="7" href="#7">7</a>   <em class="jxr_javadoccomment"> *      ://standards.freedesktop.org/icon-naming-spec/icon-naming-spec-latest</em>
+<a class="jxr_linenumber" name="8" href="#8">8</a>   <em class="jxr_javadoccomment"> *      .html for more information</em>
+<a class="jxr_linenumber" name="9" href="#9">9</a>   <em class="jxr_javadoccomment"> * </em>
+<a class="jxr_linenumber" name="10" href="#10">10</a>  <em class="jxr_javadoccomment"> * @version Version 0.8.90</em>
+<a class="jxr_linenumber" name="11" href="#11">11</a>  <em class="jxr_javadoccomment"> */</em>
+<a class="jxr_linenumber" name="12" href="#12">12</a>  <strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">class</strong> <a href="../../../../../net/staniscia/rca/swing/common/DeviceIconsNaming.html">DeviceIconsNaming</a>{
+<a class="jxr_linenumber" name="13" href="#13">13</a>  
+<a class="jxr_linenumber" name="14" href="#14">14</a>  	<strong class="jxr_keyword">public</strong> String CONTEXT_ACTIONS = <span class="jxr_string">"devices"</span>;
+<a class="jxr_linenumber" name="15" href="#15">15</a>  
+<a class="jxr_linenumber" name="16" href="#16">16</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for the audio rendering device. */</em>
+<a class="jxr_linenumber" name="17" href="#17">17</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String audio_card = <span class="jxr_string">"audio-card"</span>;
+<a class="jxr_linenumber" name="18" href="#18">18</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for the microphone audio input device. */</em>
+<a class="jxr_linenumber" name="19" href="#19">19</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String audio_input_microphone = <span class="jxr_string">"audio-input-microphone"</span>;
+<a class="jxr_linenumber" name="20" href="#20">20</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for the system battery device. */</em>
+<a class="jxr_linenumber" name="21" href="#21">21</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String battery = <span class="jxr_string">"battery"</span>;
+<a class="jxr_linenumber" name="22" href="#22">22</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for a digital still camera devices. */</em>
+<a class="jxr_linenumber" name="23" href="#23">23</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String camera_photo = <span class="jxr_string">"camera-photo"</span>;
+<a class="jxr_linenumber" name="24" href="#24">24</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The fallback icon for video cameras. */</em>
+<a class="jxr_linenumber" name="25" href="#25">25</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String camera_video = <span class="jxr_string">"camera-video"</span>;
+<a class="jxr_linenumber" name="26" href="#26">26</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The fallback icon for web cameras. */</em>
+<a class="jxr_linenumber" name="27" href="#27">27</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String camera_web = <span class="jxr_string">"camera-web"</span>;
+<a class="jxr_linenumber" name="28" href="#28">28</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for the computing device as a whole. */</em>
+<a class="jxr_linenumber" name="29" href="#29">29</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String computer = <span class="jxr_string">"computer"</span>;
+<a class="jxr_linenumber" name="30" href="#30">30</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for hard disk drives. */</em>
+<a class="jxr_linenumber" name="31" href="#31">31</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String drive_harddisk = <span class="jxr_string">"drive-harddisk"</span>;
+<a class="jxr_linenumber" name="32" href="#32">32</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for optical media drives such as CD and DVD. */</em>
+<a class="jxr_linenumber" name="33" href="#33">33</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String drive_optical = <span class="jxr_string">"drive-optical"</span>;
+<a class="jxr_linenumber" name="34" href="#34">34</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for removable media drives. */</em>
+<a class="jxr_linenumber" name="35" href="#35">35</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String drive_removable_media = <span class="jxr_string">"drive-removable-media"</span>;
+<a class="jxr_linenumber" name="36" href="#36">36</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for the gaming input device. */</em>
+<a class="jxr_linenumber" name="37" href="#37">37</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String input_gaming = <span class="jxr_string">"input-gaming"</span>;
+<a class="jxr_linenumber" name="38" href="#38">38</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for the keyboard input device. */</em>
+<a class="jxr_linenumber" name="39" href="#39">39</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String input_keyboard = <span class="jxr_string">"input-keyboard"</span>;
+<a class="jxr_linenumber" name="40" href="#40">40</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for the mousing input device. */</em>
+<a class="jxr_linenumber" name="41" href="#41">41</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String input_mouse = <span class="jxr_string">"input-mouse"</span>;
+<a class="jxr_linenumber" name="42" href="#42">42</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for graphics tablet input devices. */</em>
+<a class="jxr_linenumber" name="43" href="#43">43</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String input_tablet = <span class="jxr_string">"input-tablet"</span>;
+<a class="jxr_linenumber" name="44" href="#44">44</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The fallback icon used for flash media, such as memory stick and SD. */</em>
+<a class="jxr_linenumber" name="45" href="#45">45</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String media_flash = <span class="jxr_string">"media-flash"</span>;
+<a class="jxr_linenumber" name="46" href="#46">46</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for physical floppy disk media. */</em>
+<a class="jxr_linenumber" name="47" href="#47">47</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String media_floppy = <span class="jxr_string">"media-floppy"</span>;
+<a class="jxr_linenumber" name="48" href="#48">48</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for physical optical media such as CD and DVD. */</em>
+<a class="jxr_linenumber" name="49" href="#49">49</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String media_optical = <span class="jxr_string">"media-optical"</span>;
+<a class="jxr_linenumber" name="50" href="#50">50</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for generic physical tape media. */</em>
+<a class="jxr_linenumber" name="51" href="#51">51</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String media_tape = <span class="jxr_string">"media-tape"</span>;
+<a class="jxr_linenumber" name="52" href="#52">52</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for modem devices. */</em>
+<a class="jxr_linenumber" name="53" href="#53">53</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String modem = <span class="jxr_string">"modem"</span>;
+<a class="jxr_linenumber" name="54" href="#54">54</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for generic multimedia playing devices. */</em>
+<a class="jxr_linenumber" name="55" href="#55">55</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String multimedia_player = <span class="jxr_string">"multimedia-player"</span>;
+<a class="jxr_linenumber" name="56" href="#56">56</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for wired network connections. */</em>
+<a class="jxr_linenumber" name="57" href="#57">57</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String network_wired = <span class="jxr_string">"network-wired"</span>;
+<a class="jxr_linenumber" name="58" href="#58">58</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for wireless network connections. */</em>
+<a class="jxr_linenumber" name="59" href="#59">59</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String network_wireless = <span class="jxr_string">"network-wireless"</span>;
+<a class="jxr_linenumber" name="60" href="#60">60</a>  	<em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="61" href="#61">61</a>  <em class="jxr_javadoccomment">	 * This is the fallback icon for Personal Digial Assistant devices. Primary</em>
+<a class="jxr_linenumber" name="62" href="#62">62</a>  <em class="jxr_javadoccomment">	 * use of this icon is for PDA devices connected to the PC. Connection</em>
+<a class="jxr_linenumber" name="63" href="#63">63</a>  <em class="jxr_javadoccomment">	 * medium is not an important aspect of the icon. The metaphor for this</em>
+<a class="jxr_linenumber" name="64" href="#64">64</a>  <em class="jxr_javadoccomment">	 * fallback icon should be a generic PDA device icon.</em>
+<a class="jxr_linenumber" name="65" href="#65">65</a>  <em class="jxr_javadoccomment">	 */</em>
+<a class="jxr_linenumber" name="66" href="#66">66</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String pda = <span class="jxr_string">"pda"</span>;
+<a class="jxr_linenumber" name="67" href="#67">67</a>  	<em class="jxr_javadoccomment">/**</em>
+<a class="jxr_linenumber" name="68" href="#68">68</a>  <em class="jxr_javadoccomment">	 * This is the default fallback for phone devices. Primary use of this icon</em>
+<a class="jxr_linenumber" name="69" href="#69">69</a>  <em class="jxr_javadoccomment">	 * group is for phone devices which support connectivity to the PC. These</em>
+<a class="jxr_linenumber" name="70" href="#70">70</a>  <em class="jxr_javadoccomment">	 * may be VoIP, cellular, or possibly landline phones. The metaphor for this</em>
+<a class="jxr_linenumber" name="71" href="#71">71</a>  <em class="jxr_javadoccomment">	 * fallback should be a generic mobile phone device.</em>
+<a class="jxr_linenumber" name="72" href="#72">72</a>  <em class="jxr_javadoccomment">	 */</em>
+<a class="jxr_linenumber" name="73" href="#73">73</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String phone = <span class="jxr_string">"phone"</span>;
+<a class="jxr_linenumber" name="74" href="#74">74</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for a printer device. */</em>
+<a class="jxr_linenumber" name="75" href="#75">75</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String printer = <span class="jxr_string">"printer"</span>;
+<a class="jxr_linenumber" name="76" href="#76">76</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for a scanner device. */</em>
+<a class="jxr_linenumber" name="77" href="#77">77</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String scanner = <span class="jxr_string">"scanner"</span>;
+<a class="jxr_linenumber" name="78" href="#78">78</a>  	<em class="jxr_javadoccomment">/**</em><em class="jxr_javadoccomment"> The icon used for the monitor that video gets displayed to. */</em>
+<a class="jxr_linenumber" name="79" href="#79">79</a>  	<strong class="jxr_keyword">public</strong> <strong class="jxr_keyword">static</strong> <strong class="jxr_keyword">final</strong> String video_display = <span class="jxr_string">"video-display"</span>;
+<a class="jxr_linenumber" name="80" href="#80">80</a>  
+<a class="jxr_linenumber" name="81" href="#81">81</a>  }
+</pre>
+<hr/><div id="footer">This page was automatically generated by <a href="http://maven.apache.org/">Maven</a></div></body>
+</html>
+
